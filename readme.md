@@ -1,12 +1,32 @@
 ## Express + MongoDB CRUD Apis
 
-Use the package manager [npm](https://www.npmjs.com/) to install foobar.
+Use the package manager [npm](https://www.npmjs.com/) to install all libraries.
 
 ## Installation
 
 ```bash
 npm install express mongoose dotenv nodemon
 ```
+
+## Start Server
+
+To start server simply run the command in terminal
+
+```node 
+npm run dev
+```
+
+# Api Endpoints
+
+Api endpoint is /api/members
+
+# Port
+
+The app is listening on port 5000(by default) , you can change it by adding environment variables. 
+
+# Url
+
+App url is http://localhost:5000
 
 ## Usage
 
