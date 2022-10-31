@@ -1,4 +1,4 @@
-## Express + MongoDB CRUD Apis
+# Express + MongoDB CRUD Apis
 
 Use the package manager [npm](https://www.npmjs.com/) to install all libraries.
 
@@ -16,15 +16,15 @@ To start server simply run the command in terminal
 npm run dev
 ```
 
-# Api Endpoints
+### Api Endpoints
 
 Api endpoint is /api/members
 
-# Port
+### Port
 
 The app is listening on port 5000(by default) , you can change it by adding environment variables. 
 
-# Url
+### Url
 
 App url is http://localhost:5000
 
