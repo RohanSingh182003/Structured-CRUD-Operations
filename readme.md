@@ -1,7 +1,21 @@
-#This is sample CRUD apis for members table made with Express and MongoDB
+## Express + MongoDB CRUD Apis
 
--To start server run command npm run dev
+Use the package manager [npm](https://www.npmjs.com/) to install foobar.
 
--app is listen on http://localhost:5000/api/members
+## Installation
 
--here all the logics are seperated by folders as professional way
+```bash
+npm install express mongoose dotenv nodemon
+```
+
+## Usage
+
+- Crud operations 
+- Properly structured 
+- Clean coadbase
+- Easy to debug
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
