@@ -26,7 +26,7 @@ The app is listening on port 5000(by default) , you can change it by adding envi
 
 ### Url
 
-App url is http://localhost:5000
+App is listening on http://localhost:5000
 
 ## Usage
 

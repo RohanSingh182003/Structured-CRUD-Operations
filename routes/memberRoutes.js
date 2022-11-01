@@ -1,10 +1,15 @@
 const express = require('express')
 const router = express.Router()
-const memberController = require('../controller/memberController')
+const {getMember,getSingleMember,addMember,updateMember,deleteMember} = require('../controller/memberController')
 
-router.get('/',memberController.get)
-router.post('/',memberController.post)
-router.put('/',memberController.put)
-router.delete('/',memberController.delete)
+router.get('/',getMember)
+
+router.get('/:id',getSingleMember)
+
+router.post('/',addMember)
+
+router.put('/:id',updateMember)
+
+router.delete('/:id',deleteMember)
 
 module.exports = router;
