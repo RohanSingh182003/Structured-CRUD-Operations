@@ -8,8 +8,8 @@ const port = process.env.PORT || 5000
 
 app.listen(port,()=> console.log(`app is listen on port ${port}`))
 
-mongoose.connect('mongodb://127.0.0.1:27017/members',()=> console.log('db connected!'))
+mongoose.connect(process.env.MONGO_URI,()=> console.log('db connected!'))
 
-const memberRotes = require('./routes/memberRoutes')
+const dashboardRotes = require('./routes/dashboardRotes')
 
-app.use('/api/members',memberRotes)
+app.use('/api/dashboard',dashboardRotes)
