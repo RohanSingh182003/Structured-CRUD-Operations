@@ -13,7 +13,7 @@ const port = process.env.PORT || 5000
 
 app.listen(port,()=> console.log(`app is listen on port ${port}`))
 
-mongoose.connect('mongodb+srv://RohanSingh182003:Rohan2003@cluster0.uappo.mongodb.net/dashboard',()=> console.log('db connected!'))
+mongoose.connect('process.env.MONGO_URI',()=> console.log('db connected!'))
 
 const dashboardRotes = require('./routes/dashboardRotes')
 
